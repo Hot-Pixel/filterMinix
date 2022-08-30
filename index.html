@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="filter">
+
+            <fieldset data-filter-group="categories" class="filter--top">
+                <button class="cat cat1" data-toggle=".cat1" data-item="#cat1">Categoria 1</button>
+                <button class="cat cat2" data-toggle=".cat2" data-item="#cat2">Categoria 2</button>
+                <button class="cat cat3" data-toggle=".cat3" data-item="#cat3">Categoria 3</button>
+                <button class="cat cat4" data-toggle=".cat4" data-item="#cat4">Categoria 4</button>
+            </fieldset>
+
+            <div class="filter--bottom" >
+
+                <fieldset id="cat1" class="cat1sub catsub" data-filter-group="cat1sub">
+                    <label for="">Cat 1 SubCat 1</label>
+                    <input type="checkbox" name="" id="" value=".cat1sub1">
+
+                    <label for="">Cat 1 SubCat 2</label>
+                    <input type="checkbox" name="" id="" value=".cat1sub2">
+
+                    <label for="">Cat 1 SubCat 3</label>
+                    <input type="checkbox" name="" id="" value=".cat1sub3">
+                </fieldset>
+
+                <fieldset id="cat2" class="cat2sub catsub" data-filter-group="cat2sub">
+                    <label for="">Cat 2 SubCat 1</label>
+                    <input type="checkbox" name="" id="" value=".cat2sub1">
+
+                    <label for="">Cat 2 SubCat 2</label>
+                    <input type="checkbox" name="" id="" value=".cat2sub2">
+
+                    <label for="">Cat 2 SubCat 3</label>
+                    <input type="checkbox" name="" id="" value=".cat2sub3">
+                </fieldset>
+
+                <fieldset id="cat3" class="cat3sub catsub" data-filter-group="cat3sub">
+                    <label for="">Cat 3 SubCat 1</label>
+                    <input type="checkbox" name="" id="" value=".cat3sub1">
+
+                    <label for="">Cat 3 SubCat 2</label>
+                    <input type="checkbox" name="" id="" value=".cat3sub2">
+
+                    <label for="">Cat 3 SubCat 3</label>
+                    <input type="checkbox" name="" id="" value=".cat3sub3">
+                </fieldset>
+
+                <fieldset id="cat4" class="cat4sub catsub" data-filter-group="cat4sub">
+                    <label for="">Cat 4 SubCat 1</label>
+                    <input type="checkbox" name="" id="" value=".cat4sub1">
+
+                    <label for="">Cat 4 SubCat 2</label>
+                    <input type="checkbox" name="" id="" value=".cat4sub2">
+
+                    <label for="">Cat 4 SubCat 3</label>
+                    <input type="checkbox" name="" id="" value=".cat4sub3">
+                </fieldset>
+
+            </div>
+
+        </section>
+        <section class="grid">
+            <img class="mix cat1 cat1sub1" src="img/img-grid-1.jpg" alt="">
+            <img class="mix cat2 cat2sub1" src="img/img-grid-2.jpg" alt="">
+            <img class="mix cat3 cat3sub1" src="img/img-grid-3.jpg" alt="">
+            <img class="mix cat4 cat4sub1" src="img/img-grid-4.jpg" alt="">
+            <img class="mix cat1 cat1sub2" src="img/img-grid-5.jpg" alt="">
+            <img class="mix cat2 cat2sub2" src="img/img-grid-6.jpg" alt="">
+            <img class="mix cat3 cat3sub2" src="img/img-grid-7.jpg" alt="">
+            <img class="mix cat4 cat4sub2" src="img/img-grid-8.jpg" alt="">
+            <img class="mix cat1 cat1sub3" src="img/img-grid-9.jpg" alt="">
+            <img class="mix cat2 cat2sub3" src="img/img-grid-10.jpg" alt="">
+            <img class="mix cat3 cat3sub3" src="img/img-grid-11.jpg" alt="">
+            <img class="mix cat4 cat4sub3" src="img/img-grid-12.jpg" alt="">
+        </section>
+
+        <div class="load-more-wrapper">
+            <button type="button" class="load-more">Load more</button>
+        </div>
+
+    </main>
+
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/mixitup-multifilter.min.js"></script>
+    <script src="js//mixitup-pagination.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+.catsub {
+  display: none;
+}
+.catsub.active {
+  display: block !important;
+}/*# sourceMappingURL=style.css.map */
